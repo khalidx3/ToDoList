@@ -1,0 +1,54 @@
+.container{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    height: 500px;
+    /* background-color: pink; */
+    border-radius: 10px; 
+ }
+h1{
+    text-align: center;
+    margin-left: 87px;
+    width: 400px;
+    text-decoration: underline;
+    /* background-color: white; */
+    /* border: solid rgb(69, 230, 221) 1px; */
+    /* border-radius: 10px; */
+    
+    
+}
+form{
+    text-align: center;
+}
+.task{
+    width: 329px;
+    height: 32px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: rgb(69, 230, 221);
+}
+.task:hover{
+    border: solid #2874f0 1px;
+    box-shadow: 5px  0px 2px #2874f0;
+}
+
+.submit{
+    width:64px;
+    height: 31px;
+    background-color: #2874f0;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.submit:active{
+    background-color: gainsboro;
+}
+ li:hover{
+    color:red;
+    margin: 4%;
+    transition: 1.5s ease;
+    cursor: pointer;
+  }
+  
